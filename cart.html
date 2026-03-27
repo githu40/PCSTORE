@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav"></header>
+    <nav class="navbar">
+    <div><img src="PC STORE LOGO.png" class="logo"></div>
+    <div class="search-bar">
+        <form action="catalog.html" method="get">
+            <input type="text" name="q" id="searchInput" placeholder="Search here...">
+            <button type="submit">Search</button>
+        </form>
+        <div id="suggestions" class="suggestions"></div>
+    </div>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="catalog.html">Catalog</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li class="btn" onclick="toggleCart()"><a href="cart.html">Basket(<span id="cartCount">0</span>)</a></li>
+        </ul>
+</nav>
+    <div>
+        <div id="cartModal" class="cart-modal">
+        <div class="cart-content">
+            <span class="close" onclick="toggleCart()">&times;</span>
+            <h2>Your Basket</h2>
+            <ul id="cart-items"></ul>
+            <p>Total: $<span id="cart-total">0</span></p>
+            <button type="button" class="checkout-button">Checkout</button>
+        </div>
+
+    </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
