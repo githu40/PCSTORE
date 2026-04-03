@@ -735,3 +735,176 @@ main{
         font-size: 2rem;
     }
 }
+
+/* Thank You Page Styles */
+.thanks-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("RTX6000.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thanks-hero-content {
+    text-align: center;
+    color: white;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.thanks-hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.thanks-hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.thanks-actions {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.thanks-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.thanks-button:hover {
+    background-color: #0056b3;
+}
+
+.thanks-button.secondary {
+    background-color: #6c757d;
+}
+
+.thanks-button.secondary:hover {
+    background-color: #545b62;
+}
+
+.thanks-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+}
+
+.thanks-info h2, .thanks-support h2 {
+    color: #fff;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.next-steps {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.step {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    background-color: #3a3a3a;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.step-number {
+    width: 40px;
+    height: 40px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+    flex-shrink: 0;
+}
+
+.step-content h3 {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.step-content p {
+    color: #ddd;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.thanks-support {
+    background-color: #3a3a3a;
+    padding: 30px;
+    border-radius: 18px;
+    height: fit-content;
+}
+
+.thanks-support p {
+    color: #ddd;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.support-info p {
+    margin-bottom: 10px;
+    color: #ddd;
+}
+
+.support-info strong {
+    color: #fff;
+}
+
+.support-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.support-button:hover {
+    background-color: #218838;
+}
+
+@media (max-width: 768px) {
+    .thanks-hero-content h1 {
+        font-size: 2rem;
+    }
+    .thanks-actions {
+        flex-direction: column;
+        align-items: center;
+    }
+    .thanks-content {
+        grid-template-columns: 1fr;
+    }
+    .next-steps {
+        grid-template-columns: 1fr;
+    }
+    .step {
+        flex-direction: column;
+        text-align: center;
+    }
+}

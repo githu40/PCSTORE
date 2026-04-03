@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - Best PC Store 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header class="nav"></header>
+<body class="thanks-page">
+<nav class="navbar">
+    <div><img src="PC STORE LOGO.png" class="logo"></div>
+    <div class="search-bar">
+        <form action="catalog.html" method="get">
+            <input type="text" name="q" id="searchInput" placeholder="Search here...">
+            <button type="submit">Search</button>
+        </form>
+        <div id="suggestions" class="suggestions"></div>
+    </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="catalog.html">Catalog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contacts.html">Contact</a></li>
+            <li class="btn" onclick="toggleCart()"><a href="cart.html">Basket(<span id="cartCount">0</span>)</a></li>
+        </ul>
+
+</nav>
+<main>
+    <section class="thanks-hero">
+        <div class="thanks-hero-content">
+            <h1>Thank You for Your Purchase!</h1>
+            <p>Your order has been successfully placed. We'll send you a confirmation email shortly.</p>
+            <div class="thanks-actions">
+                <a href="index.html" class="thanks-button">Continue Shopping</a>
+                <a href="catalog.html" class="thanks-button secondary">Browse More Products</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="thanks-content">
+        <div class="thanks-info">
+            <h2>What Happens Next?</h2>
+            <div class="next-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Order Confirmation</h3>
+                        <p>You'll receive an email confirmation with your order details and tracking information.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Processing</h3>
+                        <p>Your order will be processed within 1-2 business days. We'll prepare your items for shipping.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Shipping</h3>
+                        <p>Once processed, your order will be shipped. You'll receive tracking information via email.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Delivery</h3>
+                        <p>Your PC components will be delivered to your doorstep. Enjoy your new gear!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="thanks-support">
+            <h2>Need Help?</h2>
+            <p>If you have any questions about your order, please don't hesitate to contact our support team.</p>
+            <div class="support-info">
+                <p><strong>Email:</strong> support@bestpcstore2026.com</p>
+                <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+                <p><strong>Hours:</strong> Monday - Friday, 9:00 AM - 8:00 PM EST</p>
+            </div>
+            <a href="contacts.html" class="support-button">Contact Support</a>
+        </div>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2026 Best PC Store. All rights reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

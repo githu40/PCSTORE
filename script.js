@@ -505,11 +505,27 @@ function attachBuyButtons() {
     });
 }
 
+function attachCheckoutButton() {
+    const checkoutButton = document.querySelector('.checkout-button');
+    if (checkoutButton && !checkoutButton.dataset.checkoutAttached) {
+        checkoutButton.dataset.checkoutAttached = 'true';
+        checkoutButton.addEventListener('click', () => {
+            // Clear the cart
+            cart = [];
+            saveCart();
+            updateUI();
+            // Redirect to thank you page
+            window.location.href = 'thanks.html';
+        });
+    }
+}
+
 function initPage() {
     loadCart();
     createProductModal();
     updateUI();
     attachBuyButtons();
+    attachCheckoutButton();
 }
 
 if (document.readyState !== 'loading') {
