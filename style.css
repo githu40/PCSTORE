@@ -352,7 +352,7 @@ main{
     font-size: 1.05rem;
     padding: 24px 0;
 }
-.checkout-button,
+.checkout-button, .add-to-cart-button,
 .remove-item {
     background-color: #007bff;
     color: #fff;
@@ -362,7 +362,7 @@ main{
     font-size: 0.95rem;
     cursor: pointer;
 }
-.checkout-button:hover,
+.checkout-button:hover, .add-to-cart-button:hover,
 .remove-item:hover {
     background-color: #0056d1;
 }

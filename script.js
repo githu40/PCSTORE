@@ -391,7 +391,7 @@ function createProductModal() {
                             <input id="productQuantity" type="number" min="1" value="1">
                         </label>
                         <p class="product-modal-total">Total: $<span id="productModalTotal">0.00</span></p>
-                        <button id="productBuyButton" type="button" class="checkout-button">Buy</button>
+                        <button id="productBuyButton" type="button" class="add-to-cart-button">Buy</button>
                     </div>
                 </div>
                 <div id="productImageThumbs" class="product-image-thumbs"></div>
@@ -506,7 +506,8 @@ function attachBuyButtons() {
 }
 
 function attachCheckoutButton() {
-    const checkoutButton = document.querySelector('.checkout-button');
+    // Attach only to the cart modal checkout button, not to the product modal Buy button.
+    const checkoutButton = document.querySelector('#cartModal .checkout-button');
     if (checkoutButton && !checkoutButton.dataset.checkoutAttached) {
         checkoutButton.dataset.checkoutAttached = 'true';
         checkoutButton.addEventListener('click', () => {
