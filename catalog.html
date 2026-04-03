@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <header class="nav"></header>
-<body>
+<body class="catalog-page">
 <nav class="navbar">
     <div><img src="PC STORE LOGO.png" class="logo"></div>
     <div class="search-bar">
@@ -21,8 +21,8 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="catalog.html" class="active">Catalog</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contacts.html">Contact</a></li>
             <li class="btn" onclick="toggleCart()"><a href="cart.html">Basket(<span id="cartCount">0</span>)</a></li>
         </ul>
 </nav>
@@ -33,186 +33,739 @@
         <button type="button" class="category-button" data-category="component">Components</button>
     </div>
     <div class="cards">
-        <div class="card" data-category="pc">
-            <img src="ORIONPREDATOR.webp" alt="Gaming PC" class="card-image">
-            <h2>ACER Predator Orion 7000 PO7-660 Gaming PC </h2>
-            <hr3>Specifications:</hr3>
-            <p>
-                <b>
-
-                Unlocked Intel® Core™ Ultra 9 285K Processor
-
-                RAM: 64 GB DDR5 / Storage: 2 TB SSD
-
-                Graphics: NVIDIA GeForce RTX 5090 32 GB
-
-                </b>
-            </p>
-            <div class="card-button-container">
-            <button class="card-button">Buy Now</button>
+        <section class="product-section" data-section="pcs">
+            <h2>PCs</h2>
+            <div class="section-cards">
+                <div class="card" data-category="pc" data-section="pcs">
+                    <img src="ORIONPREDATOR.webp" alt="Gaming PC" class="card-image">
+                    <h2>ACER Predator Orion 7000 PO7-660 Gaming PC</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        Unlocked Intel® Core™ Ultra 9 285K Processor
+                        RAM: 64 GB DDR5 / Storage: 2 TB SSD
+                        Graphics: NVIDIA GeForce RTX 5090 32 GB
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card" data-category="pc" data-section="pcs">
+                    <img src="HPOMEN.webp" alt="Gaming PC" class="card-image">
+                    <h2>HP OMEN 45L Gaming PC</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        Intel® Core™ Ultra 9 285K Processor
+                        RAM: 64 GB DDR5 / Storage: 4 TB SSD
+                        Graphics: NVIDIA GeForce RTX 5090 32 GB
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card" data-category="pc" data-section="pcs">
+                    <img src="NITRON70.webp" alt="Gaming PC" class="card-image">
+                    <h2>ACER Nitro N70 Gaming PC</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        AMD Ryzen 9 9900X3D Processor
+                        RAM: 64 GB / Storage: 2 TB SSD
+                        Graphics: NVIDIA GeForce RTX 5090 32 GB
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card" data-category="pc" data-section="pcs">
+                    <img src="MSIMEG.webp" alt="Gaming PC" class="card-image">
+                    <h2>MSI MEG Infinite X3 Gaming PC</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        Intel® Core™ Ultra 9 285K Processor
+                        RAM: 64 GB DDR5 / Storage: 2 TB SSD
+                        Graphics: NVIDIA GeForce RTX 5090 32 GB
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card" data-category="pc" data-section="pcs">
+                    <img src="LENOVOLEGION.png" alt="Gaming PC" class="card-image">
+                    <h2>Lenovo Legion T7 34IRH8 Gaming PC</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        AMD Ryzen 9 9900X3D Processor
+                        RAM: 64 GB DDR5 / Storage: 4 TB SSD
+                        Graphics: NVIDIA GeForce RTX 5090 32 GB
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="card" data-category="pc">
-            <img src="ORIONPREDATOR.webp" alt="Laptop" class="card-image">
-            <h2>Laptop</h2>
-            <hr3>Specifications:</hr3>
-            <p>
-                <b>
-                CPU: Intel Core i7-13700H
-                RAM: 16GB DDR5
-                GPU: RTX 4060 8GB
-                STORAGE: 1TB SSD
-                DISPLAY: 15.6" 144Hz FHD
-                BATTERY: 70Wh
-                WEIGHT: 2.3kg
-                OS: Windows 11 Home
-                </b>
-            </p>
-            <div class="card-button-container">
-            <button class="card-button">Buy Now</button>
+        </section>
+        <section class="product-section" data-section="processors">
+            <h2>Processors</h2>
+            <div class="section-cards">
+                <div class="card" data-category="component" data-section="processors">
+                    <img src="INTELI9.webp" alt="CPU" class="card-image">
+                    <h2>Intel Core i9-14900K Desktop CPU</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        24 cores / 32 threads
+                        Base clock 3.2 GHz
+                        Boost clock up to 6.0 GHz
+                        36 MB Intel Smart Cache
+                        Unlocked for overclocking
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card" data-category="component" data-section="processors">
+                    <img src="RYZEN9995WX.webp" alt="CPU" class="card-image">
+                    <h2>AMD Ryzen Threadripper PRO 9995WX CPU</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        64 cores / 128 threads
+                        Base clock 2.4 GHz
+                        Boost clock up to 4.0 GHz
+                        256 MB L3 cache
+                        Unlocked for overclocking
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card" data-category="component" data-section="processors">
+                    <img src="RYZEN9950X3D.webp" alt="CPU" class="card-image">
+                    <h2>AMD Ryzen 9 9950X3D 16 Core AM5 CPU</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        16 cores / 32 threads
+                        Base clock 3.5 GHz
+                        Boost clock up to 5.7 GHz
+                        102 MB 3D V-cache
+                        Unlocked for overclocking
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card" data-category="component" data-section="processors">
+                    <img src="INTELI7.webp" alt="CPU" class="card-image">
+                    <h2>Intel Core i7-14700K Desktop CPU</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        20 cores / 28 threads
+                        Base clock 3.4 GHz
+                        Boost clock up to 5.5 GHz
+                        30 MB Intel Smart Cache
+                        Unlocked for overclocking
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card" data-category="component" data-section="processors">
+                    <img src="RYZEN7800X3D.jpg" alt="CPU" class="card-image">
+                    <h2>AMD Ryzen 7 7800X3D Desktop CPU</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        8 cores / 16 threads
+                        Base clock 4.2 GHz
+                        Boost clock up to 5.0 GHz
+                        96 MB 3D V-cache
+                        High-performance gaming CPU
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="card" data-category="pc">
-            <img src="ORIONPREDATOR.webp" alt="Desktop PC" class="card-image">
-            <h2>Desktop PC</h2>
-            <hr3>Specifications:</hr3>
-            <p>
-                <b>
-                CPU: AMD Ryzen 7 7800X3D
-                RAM: 16GB DDR5
-                GPU: RX 7800 XT 16GB
-                STORAGE: 1TB SSD
-                PSU: 650W 80+ Bronze
-                COOLER: Air Cooler
-                CASE: Mid Tower
-                OS: Windows 11 Home
-                </b>
-            </p>
-            <div class="card-button-container">
-            <button class="card-button">Buy Now</button>
+        </section>
+        <section class="product-section" data-section="graphics">
+            <h2>Graphics Cards</h2>
+            <div class="section-cards">
+                <div class="card" data-category="component" data-section="graphics">
+                    <img src="RTX6000.webp" alt="Graphics Card" class="card-image">
+                    <h2>RTX PRO 6000 WORKSTATION BLACKWELL EDITION</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        VRAM: 96GB GDDR7 ECC memory
+                        BUS: 512-bit
+                        CUDA CORES: 24,064 CUDA cores
+                        TENSOR CORES: 752 Tensor cores
+                        BANDWIDTH: 1792 GB/s
+                        BOOST CLOCK: Up to 2617 MHz
+                        PERFORMANCE: 4000 AI TOPS /125 TFLOPS (FP32)
+                        POWER: 600W TDP
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card" data-category="component" data-section="graphics">
+                    <img src="5060VENTUS.webp" alt="Graphics Card" class="card-image">
+                    <h2>RTX 5060 MSI VENTUS 2X OC</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        VRAM: 8GB GDDR7
+                        BUS: 128-bit
+                        CUDA CORES: 10,240 CUDA cores
+                        TENSOR CORES: 320 Tensor cores
+                        BANDWIDTH: 448 GB/s
+                        BOOST CLOCK: Up to 2250 MHz
+                        PERFORMANCE: 1,638 AI TOPS / 36.5 TFLOPS (FP32)
+                        POWER: 150W TDP
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card" data-category="component" data-section="graphics">
+                    <img src="RX9070XT.webp" alt="Graphics Card" class="card-image">
+                    <h2>RX 9070 XT TUF GAMING OC</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        VRAM: 24GB GDDR6
+                        BUS: 384-bit
+                        STREAM PROCESSORS: 13,312
+                        RAY ACCELERATORS: 84
+                        BANDWIDTH: 1152 GB/s
+                        BOOST CLOCK: Up to 2147 MHz
+                        PERFORMANCE: 80 TFLOPS (FP32)
+                        POWER: 320W TDP
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card" data-category="component" data-section="graphics">
+                    <img src="5090LIGHTNINGZ.webp" alt="Graphics Card" class="card-image">
+                    <h2>RTX 5090 LIGHTNING Z 32GB</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        VRAM: 32GB GDDR7 memory
+                        BUS: 512-bit
+                        CUDA CORES: 21,760 CUDA cores
+                        TENSOR CORES: 680 Tensor cores
+                        BANDWIDTH: 1792 GB/s
+                        BOOST CLOCK: Up to 3310 MHz
+                        PERFORMANCE: 3,352 AI TOPPS /112.3 TFLOPS (FP32)
+                        POWER: 1000W TDP
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card" data-category="component" data-section="graphics">
+                    <img src="ASTRALROG5090.webp" alt="Graphics Card" class="card-image">
+                    <h2>RTX 5090 ASTRAL ROG</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        VRAM: 32GB GDDR7 memory
+                        BUS: 512-bit
+                        CUDA CORES: 21,760 CUDA cores
+                        TENSOR CORES: 680 Tensor cores
+                        BANDWIDTH: 1792 GB/s
+                        BOOST CLOCK: Up to 2610 MHz
+                        PERFORMANCE: 3,352 AI TOPPS /112.3 TFLOPS (FP32)
+                        POWER: 450W TDP
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="card" data-category="component">
-            <img src="RTX6000.webp" alt="Mouse" class="card-image">
-            <h2>RTX PRO 6000 WORKSTATION BLACKWELL EDITION</h2>
-            <hr3>Specifications:</hr3>
-            <p>
-                <b>
-                VRAM: 96GB GDDR7 ECC memory
-                BUS: 512-bit
-                CUDA CORES: 24,064 CUDA cores
-                TENSOR CORES: 752 Tensor cores
-                BANDWIDTH: 1792 GB/s
-                BOOST CLOCK: Up to 2617 MHz
-                PERFORMANCE: 4000 AI TOPS /125 TFLOPS (FP32)
-                POWER: 600W TDP
-                </b>
-            </p>
-            <div class="card-button-container">
-            <button class="card-button">Buy Now</button>
+        </section>
+        <section class="product-section" data-section="motherboards">
+            <h2>Motherboards</h2>
+            <div class="section-cards">
+                <div class="card" data-category="component" data-section="motherboards">
+                    <img src="ASUSWRX90E.webp" alt="Motherboard" class="card-image">
+                    <h2>ASUS WS WRX90E-SAGE SE WIFI Motherboard</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        Socket sWRX8
+                        Supports AMD Ryzen Threadripper Pro processors
+                        8 x DDR4 DIMM slots (up to 2TB)
+                        7 x PCIe 4.0 x16 slots
+                        Dual 10Gb Ethernet
+                        Wi-Fi 6E support
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card" data-category="component" data-section="motherboards">
+                    <img src="X670E.webp" alt="Motherboard" class="card-image">
+                    <h2>ASRock X870E Taichi Motherboard</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        Socket AM5
+                        Supports Ryzen 7000 series
+                        4 x DDR5 DIMM slots
+                        PCIe 5.0 ready
+                        Dual Thunderbolt 4 ports
+                        High-end power delivery
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card" data-category="component" data-section="motherboards">
+                    <img src="TOMAHAWK.webp" alt="Motherboard" class="card-image">
+                    <h2>MSI MEG Z790 Tomahawk Motherboard</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        Socket LGA1700
+                        Supports 13th/14th Gen Intel CPUs
+                        5 x M.2 slots
+                        20+1+1 power stages
+                        Integrated Wi-Fi 7
+                        Premium cooling design
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card" data-category="component" data-section="motherboards">
+                    <img src="AORUSXTREME.webp" alt="Motherboard" class="card-image">
+                    <h2>Gigabyte AORUS Xtreme Motherboard</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        Socket LGA1700
+                        Supports Intel 14th Gen
+                        6 x PCIe 5.0 slots
+                        Triple M.2 heatsinks
+                        10GbE LAN
+                        RGB Fusion lighting
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card" data-category="component" data-section="motherboards">
+                    <img src="ROGX870E.webp" alt="Motherboard" class="card-image">
+                    <h2>ASUS ROG Crosshair X870E BTF Hero</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        Socket AM5
+                        Supports AMD Ryzen 7000 series
+                        4 x DDR5 DIMM slots
+                        Premium audio codec
+                        PCIe 5.0 support
+                        AI cooling features
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="card" data-category="component">
-            <img src="ORIONPREDATOR.webp" alt="Mouse" class="card-image">
-            <h2>RTX 5060 MSI VENTUS</h2>
-            <hr3>Specifications:</hr3>
-            <p>
-                <b>
-                VRAM: 16GB GDDR7
-                BUS: 128-bit
-                CUDA CORES: 10,240 CUDA cores
-                TENSOR CORES: 320 Tensor cores
-                BANDWIDTH: 448 GB/s
-                BOOST CLOCK: Up to 2250 MHz
-                PERFORMANCE: 1,638 AI TOPS / 36.5 TFLOPS (FP32)
-                POWER: 150W TDP
-                </b>
-            </p>
-            <div class="card-button-container">
-            <button class="card-button">Buy Now</button>
+        </section>
+        <section class="product-section" data-section="ram-storage">
+            <h2>RAM / Storage</h2>
+            <div class="section-cards">
+                <div class="card" data-category="component" data-section="ram-storage">
+                    <img src="TRIDENTRAM.webp" alt="RAM Kit" class="card-image">
+                    <h2>G.SKILL Trident Z5 RGB 64GB DDR5 6400MHz RAM Kit</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        2 x 32GB DDR5 modules
+                        6400MHz CL32
+                        RGB lighting
+                        Intel XMP 3.0 ready
+                        High-performance overclocking kit
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card" data-category="component" data-section="ram-storage">
+                    <img src="1TBRAMOCTACHANNEL.jpg" alt="Workstation RAM Kit" class="card-image">
+                    <h2>1TB 8x128GB Octa-Channel Workstation Memory Kit V-Color</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        8 x 128GB DDR5 modules
+                        8400MHz CL36
+                        ECC Registered
+                        Octa-channel configuration
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card" data-category="component" data-section="ram-storage">
+                    <img src="MP700PROXT.webp" alt="SSD" class="card-image">
+                    <h2>Corsair MP700 PRO XT 2TB M.2 (2280) PCIe Gen 5 NVMe SSD / Solid State Drive</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        Capacity: 2TB
+                        Form Factor: M.2 2280
+                        Interface: PCIe Gen 5.0 x4
+                        Sequential Read Speed: Up to 14,900 MB/s
+                        Sequential Write Speed: Up to 14,500 MB/s
+                        Endurance: 1,200 TBW
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card" data-category="component" data-section="ram-storage">
+                    <img src="CORSAIR64GB.webp" alt="RAM Kit" class="card-image">
+                    <h2>Corsair Vengeance RGB DDR5 64GB RAM Kit</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        2 x 32GB DDR5 modules
+                        5600MHz CL36
+                        RGB lighting
+                        Optimized for Intel and AMD
+                        High-performance memory kit
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card" data-category="component" data-section="ram-storage">
+                    <img src="SAMSUNG2TB.webp" alt="SSD" class="card-image">
+                    <h2>Samsung 980 PRO 2TB NVMe SSD</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        Capacity: 2TB
+                        PCIe Gen 4.0 x4
+                        Read up to 7,000 MB/s
+                        Write up to 5,100 MB/s
+                        Suitable for gaming and creatives
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="card" data-category="component">
-            <img src="ORIONPREDATOR.webp" alt="Mouse" class="card-image">
-            <h2>RX 9070 XT GAMING X TRIO</h2>
-            <hr3>Specifications:</hr3>
-            <p>
-                <b>
-                VRAM: 24GB GDDR6
-                BUS: 384-bit
-                STREAM PROCESSORS: 13,312
-                RAY ACCELERATORS: 84
-                BANDWIDTH: 1152 GB/s
-                BOOST CLOCK: Up to 2900 MHz
-                PERFORMANCE: 80 TFLOPS (FP32)
-                POWER: 320W TDP
-                </b>
-            </p>
-            <div class="card-button-container">
-            <button class="card-button">Buy Now</button>
+        </section>
+        <section class="product-section" data-section="cooling">
+            <h2>Cooling</h2>
+            <div class="section-cards">
+                <div class="card" data-category="component" data-section="cooling">
+                    <img src="AIOCORSAIR.webp" alt="AIO Cooler" class="card-image">
+                    <h2>Corsair iCUE H150i ELITE CAPELLIX AIO Cooler</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        360mm radiator
+                        RGB pump head
+                        Zero RPM cooling mode
+                        3x ML RGB 120mm fans
+                        Compatible with Intel and AMD sockets
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card" data-category="component" data-section="cooling">
+                    <img src="ARCTIC.webp" alt="AIO Cooler" class="card-image">
+                    <h2>Arctic Liquid Freeze III 420mm AIO Cooler</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        420mm radiator
+                        High-performance cooling
+                        3x 140mm fans
+                        ARGB lighting
+                        Compatible with Intel and AMD sockets
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card" data-category="component" data-section="cooling">
+                    <img src="RX140.webp" alt="Case Fan" class="card-image">
+                    <h2>Corsair iCUE LINK RX140 RGB Black Single 140mm Fan</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        140mm case fan
+                        RGB lighting
+                        PWM control
+                        High static pressure design
+                        Compatible with Corsair iCUE software
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card" data-category="component" data-section="cooling">
+                    <img src="NOCTUAD15.webp" alt="Air Cooler" class="card-image">
+                    <h2>Noctua NH-D15 Chromax Black Air Cooler</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        Dual tower air cooler
+                        140mm fans
+                        Premium cooling performance
+                        Quiet operation
+                        Fits most high-end cases
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card" data-category="component" data-section="cooling">
+                    <img src="KRAKEN.webp" alt="AIO Cooler" class="card-image">
+                    <h2>NZXT Kraken X73 RGB Liquid Cooler</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        360mm radiator
+                        RGB pump cap
+                        Quiet fans
+                        CAM-controlled lighting
+                        High-performance cooling package
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="card" data-category="component">
-            <img src="ORIONPREDATOR.webp" alt="Mouse" class="card-image">
-            <h2>RTX 5090 LIGHTNING Z 32GB</h2>
-            <hr3>Specifications:</hr3>
-            <p>
-                <b>
-                VRAM: 32GB GDDR7 memory
-                BUS: 512-bit
-                CUDA CORES: 21,760 CUDA cores
-                TENSOR CORES: 680 Tensor cores
-                BANDWIDTH: 1792 GB/s
-                BOOST CLOCK: Up to 2610 MHz
-                PERFORMANCE: 3,352 AI TOPPS /112.3 TFLOPS (FP32)
-                POWER: 450W TDP
-                </b>
-            </p>
-            <div class="card-button-container">
-            <button class="card-button">Buy Now</button>
+        </section>
+        <section class="product-section" data-section="psus">
+            <h2>PSUs</h2>
+            <div class="section-cards">
+                <div class="card" data-category="component" data-section="psus">
+                    <img src="CORSAIRPSU.webp" alt="PSU" class="card-image">
+                    <h2>Corsair RM1000x 1000W 80+ Gold PSU</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        1000W continuous power
+                        80+ Gold efficiency
+                        Fully modular cables
+                        Low-noise fan
+                        Japanese capacitors
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card" data-category="component" data-section="psus">
+                    <img src="PRIMEPSU.webp" alt="PSU" class="card-image">
+                    <h2>Seasonic PRIME TX-1000 1600W 80+ Titanium PSU</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        1600W output
+                        80+ Titanium efficiency
+                        Fully modular design
+                        Hybrid fan control
+                        Premium protection features
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card" data-category="component" data-section="psus">
+                    <img src="EVGAPSU.webp" alt="PSU" class="card-image">
+                    <h2>EVGA SuperNOVA 850 G5 850W 80+ Gold PSU</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        850W continuous power
+                        80+ Gold certification
+                        Fully modular cables
+                        ECO mode fan control
+                        Stable voltage regulation
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card" data-category="component" data-section="psus">
+                    <img src="ASUSPSU.webp" alt="PSU" class="card-image">
+                    <h2>ASUS ROG Thor 1200W 80+ Platinum PSU</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        1200W power delivery
+                        80+ Platinum efficiency
+                        OLED power display
+                        Fully modular cables
+                        Aura Sync lighting
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card" data-category="component" data-section="psus">
+                    <img src="COOLERMASTERPSU.jpg" alt="PSU" class="card-image">
+                    <h2>Cooler Master V1200 Platinum 1200W PSU</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        1200W output
+                        80+ Platinum efficiency
+                        Fully modular cabling
+                        Silent fan mode
+                        High-quality components
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="card" data-category="component">
-            <img src="ORIONPREDATOR.webp" alt="Mouse" class="card-image">
-            <h2>RTX 4090 SUPRIMAX</h2>
-            <hr3>Specifications:</hr3>
-            <p>
-                <b>
-                VRAM: 24GB GDDR6X
-                BUS: 384-bit
-                CUDA CORES: 16,384 CUDA cores
-                TENSOR CORES: 512 Tensor cores
-                BANDWIDTH: 1,008 GB/s
-                BOOST CLOCK: Up to 2520 MHz
-                PERFORMANCE: 2,527 AI TOPS /80.2 TFLOPS (FP32)
-                POWER: 450W TDP
-                </b>
-            </p>
-            <div class="card-button-container">
-            <button class="card-button">Buy Now</button>
+        </section>
+        <section class="product-section" data-section="cases">
+            <h2>Cases</h2>
+            <div class="section-cards">
+                <div class="card" data-category="component" data-section="cases">
+                    <img src="9000D.webp" alt="PC Case" class="card-image">
+                    <h2>Corsair 9000D RGB Airflow Black</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        Full tower case
+                        Tempered glass panels
+                        High airflow design
+                        Supports E-ATX motherboards
+                        Multiple cooling options
+                        RGB lighting support
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card" data-category="component" data-section="cases">
+                    <img src="NZXTTOWER.webp" alt="PC Case" class="card-image">
+                    <h2>NZXT H710i Mid Tower Case</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        Mid tower layout
+                        Tempered glass side panel
+                        Smart device RGB control
+                        High airflow front panel
+                        Cable management design
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card" data-category="component" data-section="cases">
+                    <img src="LIANLITOWER.webp" alt="PC Case" class="card-image">
+                    <h2>Lian Li PC-O11 Dynamic Case</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        Dual-chamber design
+                        Tempered glass panels
+                        Excellent cooling support
+                        Modular layout
+                        Clean cable routing
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card" data-category="component" data-section="cases">
+                    <img src="FRACTALTOWER.webp" alt="PC Case" class="card-image">
+                    <h2>Fractal Design Meshify 2 Case</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        High-airflow mesh front
+                        Tempered glass side panel
+                        Flexible storage options
+                        Tool-free design
+                        Quiet operation
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card" data-category="component" data-section="cases">
+                    <img src="PHANTEKSTOWER.jpg" alt="PC Case" class="card-image">
+                    <h2>Phanteks Eclipse P500A Case</h2>
+                    <hr3>Specifications:</hr3>
+                    <p>
+                        <b>
+                        High-airflow panel
+                        Tempered glass side
+                        RGB lighting support
+                        Spacious interior
+                        Easy cable routing
+                        </b>
+                    </p>
+                    <div class="card-button-container">
+                        <button class="card-button">Buy Now</button>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="card" data-category="component">
-            <img src="ASTRAL ROG 5090.webp" alt="Mouse" class="card-image">
-            <h2>RTX 5090 ASTRAL ROG</h2>
-            <hr3>Specifications:</hr3>
-            <p>
-                <b>
-                VRAM: 32GB GDDR7 memory
-                BUS: 512-bit
-                CUDA CORES: 21,760 CUDA cores
-                TENSOR CORES: 680 Tensor cores
-                BANDWIDTH: 1792 GB/s
-                BOOST CLOCK: Up to 2610 MHz
-                PERFORMANCE: 3,352 AI TOPPS /112.3 TFLOPS (FP32)
-                POWER: 450W TDP
-                </b>
-            </p>
-            <div class="card-button-container">
-            <button class="card-button">Buy Now</button>
-            </div>
-        </div>
+        </section>
     </div>
+
 </main>
 <footer>
     <p>&copy; 2026 Best PC Store. All rights reserved.</p>
